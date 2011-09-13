@@ -1,6 +1,6 @@
-# guard-sync3r
+# guard-s3
 
-Sync3r is a simple guard library that syncs local directories with S3 as files are changed. 
+guard-s3 is a simple guard library that syncs local directories with S3 as files are changed. 
 
 # Usage
 

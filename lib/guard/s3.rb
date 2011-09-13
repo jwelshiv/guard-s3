@@ -9,7 +9,7 @@ require 'guard'
 require 'guard/guard'
 
 module ::Guard
-  class Sync3r < Guard
+  class S3 < Guard
     include AWS::S3
     
     attr_reader :s3_connection, :pwd
