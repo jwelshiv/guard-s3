@@ -1,0 +1,13 @@
+# Configuration Options
+
+opts = {
+  :access_key_id  => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  :secret_access_key  => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  :bucket    => "mybucket",
+  :s3_permissions => :public_read,
+  :debug     => true
+}
+
+guard 'sync3r', opts do
+  watch(/.*/)
+end
